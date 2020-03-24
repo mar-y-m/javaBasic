@@ -123,7 +123,7 @@ public class ArrayUtility {
         int[] result;
         result=appendNewValue(oldArray,value);
 
-        for (int i = 0; i < result.length; i++) {
+                for (int i = 0; i < result.length; i++) {
             for (int j = i+1; j < result.length; j++) {
                 if(result[j]>result[j+1]){
                     int next=result[j];
