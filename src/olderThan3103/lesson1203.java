@@ -1,3 +1,5 @@
+package olderThan3103;
+
 public class lesson1203 {
     public static void main(String[] args) {
         int[] integerArray;
@@ -9,17 +11,17 @@ public class lesson1203 {
         }
 
 /*
-        int resultFirstTask = ArrayUtility.returnArrayElementsSum(integerArray);
+        int resultFirstTask = olderThan3103.ArrayUtility.returnArrayElementsSum(integerArray);
 
         System.out.println("Result 1st task: " + resultFirstTask);
 
-        int[] resultSecondTask = ArrayUtility.appendNewValue(integerArray, 100);
+        int[] resultSecondTask = olderThan3103.ArrayUtility.appendNewValue(integerArray, 100);
         System.out.println("Result 2nd task: ");
         for (int i : resultSecondTask) {
             System.out.println(i);
         }
 
-        int[] resultThirdTask = ArrayUtility.appendNew2Values(integerArray, 15,121);
+        int[] resultThirdTask = olderThan3103.ArrayUtility.appendNew2Values(integerArray, 15,121);
         System.out.println("Result 3d task: ");
         for (int i : resultThirdTask) {
             System.out.println(i);
@@ -29,7 +31,7 @@ public class lesson1203 {
 /*
         int[] forthArray = new int[]{2,6,25};
 
-        int[] resultForthTask = ArrayUtility.appendNewValues(integerArray, forthArray);
+        int[] resultForthTask = olderThan3103.ArrayUtility.appendNewValues(integerArray, forthArray);
         System.out.println("Result 4th task: ");
         for (int i : resultForthTask) {
             System.out.println(i);
@@ -43,13 +45,13 @@ public class lesson1203 {
         }
 
 /*
-        int[] resultSixthTask = ArrayUtility.appendAllUniqueValues(integerArray, forthArray);
+        int[] resultSixthTask = olderThan3103.ArrayUtility.appendAllUniqueValues(integerArray, forthArray);
         System.out.println("Result 6th task: ");
         for (int i : resultForthTask) {
             System.out.println(i);
         }
 
-        int[] resultSeventhTask = ArrayUtility.appendNewValueAndSort(forthArray, 7);
+        int[] resultSeventhTask = olderThan3103.ArrayUtility.appendNewValueAndSort(forthArray, 7);
         System.out.println("Result 7th task: ");
         for (int i : resultSeventhTask) {
             System.out.println(i);

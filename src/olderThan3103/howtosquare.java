@@ -1,3 +1,5 @@
+package olderThan3103;
+
 public class howtosquare {
     public static void main(String[] args)
     {
