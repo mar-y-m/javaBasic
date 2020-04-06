@@ -3,6 +3,8 @@ package Lesson0204;
 import Lesson0204.animal.Cat;
 import Lesson0204.animal.Dog;
 
+import java.util.Scanner;
+
 public class Person {
 
     public static void hiCat(){
@@ -15,8 +17,7 @@ public class Person {
 
     public static void playWithDog(){
         Dog.gaf();
-        Dog.getAge();
-        //Dog.appendYear(226);
+        System.out.println("You can hear one good boy barking! His name is " + Dog.getDogName() + ".");
 
          int[] letsGuess = Dog.ageOptions();
 
@@ -26,5 +27,11 @@ public class Person {
         else {
             System.out.println("Oh no dog's age remains a mystery.");
         }
+
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Do you want to know how old will "+Dog.getDogName()+" be in future? Set the timespan yourself!");
+
+        int count = keyboard.nextInt();
+        Dog.appendYear(count);
     }
 }

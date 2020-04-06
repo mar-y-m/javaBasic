@@ -11,7 +11,7 @@ public class Dog {
     static String dogFavouriteToy = "ball";
 
     public static void gaf(){
-        System.out.println("bork");
+        System.out.println("bork!");
     }
 
     public static int getAge(){
@@ -24,7 +24,7 @@ public class Dog {
         }
         else {
             dogAge = count + dogAge;
-            System.out.println("Now the dog is " + dogAge + " years old.");
+            System.out.println("The future is now! The dog is " + dogAge + " years old.");
         }
     }
 
