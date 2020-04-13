@@ -3,10 +3,57 @@ package Lesson0204;
 import Lesson0204.animal.Cat;
 import Lesson0204.animal.Tiger;
 import Lesson0204.animal.Tiger2;
+import Lesson0204.location.BetterCity;
+import Lesson0204.location.City;
 
 public class StartPoint {
 
     public static void main(String[] args){
+        //cities
+        City city1 = new City();
+        city1.cityName = "Lisbon";
+        city1.citySize = 100500;
+        System.out.println("City #1 is " + city1.cityName + ", and it's this big: "+city1.citySize);
+
+        City city2 = new City();
+        System.out.println("City #1 is going to be default: " + city2.cityName + ", and it's going to be empty: "+city2.citySize);
+
+        City city3 = new City();
+        System.out.println("Is the city fine? "+ city3.isCityFine());
+        city3.changeYourMind("not so much");
+        System.out.println("Is the city still fine? "+ city3.isCityFine());
+
+        City city4 = new City();
+        city4.cityName = "Berlin";
+        System.out.println("Is "+city4.cityName+" fine? "+city4.isCityFine());
+
+        BetterCity cityConstruct = new BetterCity("Rome", 2000000);
+        System.out.println("City #5 is " + cityConstruct.cityName + ", and it's this big: "+cityConstruct.citySize);
+
+    }
+
+    public static void nullLesson (String[] args){
+        NullLesson.startLessonExample();
+    }
+
+    public static void catStuff(){
+        System.out.println(Cat.showWeight());
+
+        Cat.drink();
+        Cat.eat(3);
+
+        Person.hiCat();
+        Person.changeCatName("Bro");
+        Person.hiCat();
+
+        System.out.println(Cat.showWeight());
+    }
+
+    public static void dogStuff(){
+        Person.playWithDog();
+    }
+
+    public static void tigerStuff(){
         System.out.println("we have "+Tiger.tigerCounter+" tigers.");
 
         Tiger tiger = new Tiger();
@@ -29,23 +76,5 @@ public class StartPoint {
         new Tiger();
         new Tiger();
         System.out.println("we have "+Tiger.tigerCounter+" tigers.");
-
-    }
-
-    public static void catStuff(){
-        System.out.println(Cat.showWeight());
-
-        Cat.drink();
-        Cat.eat(3);
-
-        Person.hiCat();
-        Person.changeCatName("Bro");
-        Person.hiCat();
-
-        System.out.println(Cat.showWeight());
-    }
-
-    public static void dogStuff(){
-        Person.playWithDog();
     }
 }
