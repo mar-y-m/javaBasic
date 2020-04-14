@@ -9,6 +9,10 @@ import Lesson0204.location.City;
 public class StartPoint {
 
     public static void main(String[] args){
+
+    }
+
+    public static void cities(){
         //cities
         City city1 = new City();
         city1.cityName = "Lisbon";
@@ -29,7 +33,11 @@ public class StartPoint {
 
         BetterCity cityConstruct = new BetterCity("Rome", 2000000);
         System.out.println("City #5 is " + cityConstruct.cityName + ", and it's this big: "+cityConstruct.citySize);
-
+    }
+    public static void nullLesson (String[] args){
+        NullLesson.startLessonExample();
+    }
+    public static void npeArray(){
         //npe array
         BetterCity[] cityArray = new BetterCity[10];
         BetterCity arrayCity1 = new BetterCity("msk", 8000500);
@@ -40,17 +48,11 @@ public class StartPoint {
         cityArray[2] = arrayCity3;
         for (int i = 0; i < cityArray.length; i++) {
             BetterCity currentCity = cityArray[i];
-            if(currentCity != null){
-                System.out.println("current city key is "+currentCity.key);
+            if (currentCity != null) {
+                System.out.println("current city key is " + currentCity.key);
             }
         }
-
     }
-
-    public static void nullLesson (String[] args){
-        NullLesson.startLessonExample();
-    }
-
     public static void catStuff(){
         System.out.println(Cat.showWeight());
 
@@ -63,11 +65,9 @@ public class StartPoint {
 
         System.out.println(Cat.showWeight());
     }
-
     public static void dogStuff(){
         Person.playWithDog();
     }
-
     public static void tigerStuff(){
         System.out.println("we have "+Tiger.tigerCounter+" tigers.");
 
