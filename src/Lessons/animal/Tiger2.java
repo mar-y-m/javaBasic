@@ -1,4 +1,4 @@
-package Lesson0204.animal;
+package Lessons.animal;
 
 public class Tiger2 {
     private static int kittenCount = 0;

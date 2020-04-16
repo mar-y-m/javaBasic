@@ -1,4 +1,4 @@
-package Lesson0204.animal;
+package Lessons.animal;
 
 import java.util.Scanner;
 

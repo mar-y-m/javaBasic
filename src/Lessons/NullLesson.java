@@ -1,6 +1,6 @@
-package Lesson0204;
+package Lessons;
 
-import Lesson0204.animal.Tiger;
+import Lessons.animal.Tiger;
 
 public class NullLesson {
 

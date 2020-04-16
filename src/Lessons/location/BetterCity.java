@@ -1,4 +1,4 @@
-package Lesson0204.location;
+package Lessons.location;
 
 public class BetterCity {
 

@@ -1,7 +1,7 @@
-package Lesson0204;
+package Lessons;
 
-import Lesson0204.animal.Cat;
-import Lesson0204.animal.Dog;
+import Lessons.animal.Cat;
+import Lessons.animal.Dog;
 
 import java.util.Scanner;
 
