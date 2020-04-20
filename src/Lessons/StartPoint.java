@@ -2,12 +2,13 @@ package Lessons;
 
 import Lessons.HW.CitiesHW;
 import Lessons.HW.NPEArrayHW;
+import Lessons.HW.StreetArrayHW;
 import Lessons.HW.StreetHW;
 
 public class StartPoint {
 
     public static void main(String[] args){
-        StreetHW.newStreet();
+        StreetArrayHW.streetArrayCount();
     }
 
 
@@ -31,5 +32,11 @@ public class StartPoint {
     }
     public static void tigerStuff(){
         TigerLesson.tigerStuff();
+    }
+    public static void streetStuff(){
+        StreetHW.newStreet();
+    }
+    public static void equalsLesson(){
+        EqualsLesson.startLessonExample();
     }
 }

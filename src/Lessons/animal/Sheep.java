@@ -1,5 +1,7 @@
 package Lessons.animal;
 
+import java.util.Objects;
+
 public class Sheep {
     public String name = "default name";
     public int countLegs = 4;
@@ -26,4 +28,14 @@ public class Sheep {
                 ", countLegs=" + countLegs +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Sheep sheep = (Sheep) o;
+        return countLegs == sheep.countLegs &&
+                Objects.equals(name, sheep.name);
+    }
+
 }
