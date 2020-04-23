@@ -15,5 +15,4 @@ public class City {
         cityFine = a;
     }
 
-
 }

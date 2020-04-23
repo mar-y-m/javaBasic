@@ -2,12 +2,21 @@ package Lessons.animal;
 
 import java.util.Objects;
 
-public class Sheep {
+public class Sheep extends Animal {
     public String name = "default name";
     public int countLegs = 4;
 
     public Sheep(){
+        super();
         System.out.println("Hi!");
+    }
+
+    public void drink(){
+        System.out.println("sheep go drink");
+    }
+
+    public void doIt(){
+        System.out.println("do it");
     }
 
     public Sheep( String a, int b){

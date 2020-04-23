@@ -1,15 +1,13 @@
 package Lessons;
 
-import Lessons.HW.CitiesHW;
-import Lessons.HW.NPEArrayHW;
-import Lessons.HW.StreetArrayHW;
-import Lessons.HW.StreetHW;
+import Lessons.HW.*;
 
 public class StartPoint {
 
     public static void main(String[] args){
-        StreetArrayHW.streetArrayCount();
+
     }
+
 
 
     public static void nullLesson (String[] args){
@@ -39,4 +37,14 @@ public class StartPoint {
     public static void equalsLesson(){
         EqualsLesson.startLessonExample();
     }
+    public static void streetArrayHW(){
+        StreetArrayHW.streetArrayCount();
+    }
+    public static void inheritLesson(){
+        InheritLesson.startLessonExample();
+    }
+    public static void transportHW(){
+        TransportHW.transportHW();
+    }
+
 }
