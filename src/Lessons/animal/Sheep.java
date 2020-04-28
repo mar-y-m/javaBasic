@@ -15,6 +15,11 @@ public class Sheep extends Animal {
         System.out.println("sheep go drink");
     }
 
+    @Override
+    public boolean canSpeak() {
+        return true;
+    }
+
     public void doIt(){
         System.out.println("do it");
     }

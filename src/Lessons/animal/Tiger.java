@@ -16,4 +16,16 @@ public class Tiger extends Animal{
         tigerCounter++;
     }
 
+    @Override
+    public boolean canSpeak() {
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        return "Tiger{" +
+                "kittenCount=" + kittenCount +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
