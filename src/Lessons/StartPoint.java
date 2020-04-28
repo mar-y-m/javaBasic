@@ -5,7 +5,7 @@ import Lessons.HW.*;
 public class StartPoint {
 
     public static void main(String[] args){
-
+    TryCatchHW.tryCatchHW();
     }
 
 
@@ -45,6 +45,9 @@ public class StartPoint {
     }
     public static void transportHW(){
         TransportHW.transportHW();
+    }
+    public static void tryLesson(){
+        TryLesson.startLessonExample();
     }
 
 }

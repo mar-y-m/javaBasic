@@ -1,6 +1,6 @@
 package Lessons.animal;
 
-public class Tiger {
+public class Tiger extends Animal{
     public static int tigerCounter = 0;
     private int kittenCount = 0;
     public String name = "(empty)";
